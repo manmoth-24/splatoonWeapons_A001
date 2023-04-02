@@ -1,0 +1,49 @@
+body{
+    margin: 0px;
+    background: #000010
+}
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.headerLeft{
+    padding: 20px;
+    width: 100%;
+    transition: all 1s;
+    width: 350px;
+}
+.headerLeft a{
+    display: block;
+    font-weight: normal;
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    letter-spacing: -1px;
+}
+.headerLeft:hover{
+    background-color: gray;
+}
+.headerRight{
+    width: 100%;
+    transition: all 1s;
+    width: 350px;
+    margin-right: 0px;
+    float: right;
+}
+.headerRight li{
+    font-size: 20px;
+    float: right;
+    margin-right: 40px;
+    font-weight: normal;
+    list-style-type: none;
+}
+.headerRight a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+}
+.headerRight:hover{
+    background-color: gray;
+}
